@@ -8,7 +8,7 @@ try {
   const launchpads = await getLaunchpads();
   console.log(launchpads);
   launchpads.forEach((launchpad) => {
-    const container = document.createElement("div");
+    const container = document.createElement("article");
     container.classList.add("container");
     const infoContainer = document.createElement("div");
     infoContainer.classList.add("info__container");

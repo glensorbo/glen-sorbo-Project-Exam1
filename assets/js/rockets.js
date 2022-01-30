@@ -7,7 +7,7 @@ const infoSection = document.querySelector("#info__section");
 try {
   const rockets = await getRockets();
   rockets.forEach((rocket) => {
-    const container = document.createElement("div");
+    const container = document.createElement("article");
     container.classList.add("container");
     const rocketContainer = document.createElement("div");
     rocketContainer.classList.add("info__container");
