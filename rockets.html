@@ -10,7 +10,7 @@
       href="./assets/img/patch.jpg"
       type="image/x-icon"
     />
-    <title>SpaceX - Contact Us</title>
+    <title>SpaceX - SpaceX Rockets</title>
   </head>
   <body>
     <header id="main__header">
@@ -21,10 +21,10 @@
             <li class="nav__link">
               <a href="./index.html">Home</a>
             </li>
-            <li class="nav__link active">
+            <li class="nav__link">
               <a href="./contact.html">Contact us</a>
             </li>
-            <li class="nav__link">
+            <li class="nav__link active">
               <a href="./rockets.html">Rockets</a>
             </li>
             <li class="nav__link">
@@ -70,10 +70,10 @@
               <li class="sidemenu__menuitem">
                 <a href="./index.html">Home</a>
               </li>
-              <li class="sidemenu__menuitem active">
+              <li class="sidemenu__menuitem">
                 <a href="./contact.html">Contact us</a>
               </li>
-              <li class="sidemenu__menuitem">
+              <li class="sidemenu__menuitem active">
                 <a href="./rockets.html">Rockets</a>
               </li>
               <li class="sidemenu__menuitem">
@@ -84,45 +84,10 @@
         </nav>
       </div>
     </header>
+
     <main>
-      <section>
-        <h1 class="heading site__heading">Contact us</h1>
-        <div class="container">
-          <form id="contact__form">
-            <div class="form__group">
-              <label class="form__label" for="name">Name</label>
-              <input type="text" id="name" class="form__input" required />
-              <p class="error__text hidden">Please enter your name</p>
-            </div>
-            <div class="form__group">
-              <label class="form__label" for="subject">Subject</label>
-              <input type="text" id="subject" class="form__input" required />
-              <p class="error__text hidden">
-                Please enter atleast 10 characters
-              </p>
-            </div>
-            <div class="form__group">
-              <label class="form__label" for="email">Email</label>
-              <input type="email" id="email" class="form__input" required />
-              <p class="error__text hidden">Please enter a valid email</p>
-            </div>
-            <div class="form__group">
-              <label class="form__label" for="messageInput">Message</label>
-              <textarea
-                name="messageInput"
-                id="messageInput"
-                class="form__input"
-                required
-              ></textarea>
-              <p class="error__text hidden">
-                Please enter atleast 10 characters
-              </p>
-            </div>
-            <div class="alert__area"></div>
-            <button type="submit" class="btn form__submit">Submit</button>
-          </form>
-        </div>
-      </section>
+      <h1 class="heading site__heading">SpaceX Rockets</h1>
+      <section id="info__section"></section>
     </main>
     <footer>
       <p>
@@ -131,8 +96,7 @@
           href="https://glensorbo.com"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Glen Sørbø</a
+          >Glen Sørbø</a
         >
       </p>
     </footer>
@@ -141,6 +105,6 @@
       defer
       src="./assets/js/components/sidebar.js"
     ></script>
-    <script type="module" defer src="./assets/js/contact.js"></script>
+    <script type="module" defer src="./assets/js/rockets.js"></script>
   </body>
 </html>
